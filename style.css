@@ -1,0 +1,69 @@
+a:hover{
+    text-decoration: none;
+}
+
+.search-input{
+    background-color: #f1f3f4;
+    border: none;
+    border: radius 0.4rem;
+    width: 35rem;
+    padding: 0.6rem 2.5rem;
+    outline: none;
+}
+
+.search-input:focus{
+    
+    box-shadow: 1px 7px 6px 3px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 1px 7px 6px 3px rgba(0,0,0,0.19);
+}
+
+.input-group{
+    position: relative;
+
+}
+
+.fa-search{
+    position: absolute;
+    left: 0.8rem;
+    top: 0.8rem;
+    color: #5f6368;
+
+}
+
+.user-img{
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.fa-question-circle,.fa-cog, .fa-bars{
+    font-size: 1.5rem;
+    color: #5f6368;
+
+}
+
+.new-btn{
+    width: 9rem;
+    box-shadow: -1px 0px -5px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -1px 0px 10px -5px rgba(0,0,0,0.44);
+    -moz-box-shadow: -1px 0px 10px -5px rgba(0,0,0,0.44);
+    border-radius: 4rem;
+
+}
+.new-btn h5, .left-bar-btn i,.left-bar-btn h5,.my-drive-list i, .quick-access p {
+    color: #75787a;
+    
+}
+.my-drive-btn{
+    font-size: 1.2rem;
+
+}
+.card h5{
+    color: #747474;
+}
+.fa-stream{
+    color: #4285f4;
+}
+
+.fa-image{
+    color: #D93126;;
+}
